@@ -2,6 +2,17 @@ pyPaSWAS
 ========
 [![DOI](https://zenodo.org/badge/28648467.svg)](https://zenodo.org/badge/latestdoi/28648467)
 
+Adated version to be installed on Ubuntu 18.04.6 with CUDA 11.4 in Sept 2022. There are version conflicts that make automatic installation as described impossible. Used version pinning to make it run again.
+Prerequisites
+- cuda-toolkit (tested: 11.4)
+- python 3.9.12 from miniconda, installed witout auto-activation of environment.
+- /applications directory in which everthing will be installed in a python venv
+- biopython==1.77
+- numpy==1.18.0
+- pycuda==2022.1
+
+Installation instructions are the respective section below.
+
 Extented python version of PaSWAS. Original papers in PLOS ONE: 
 
 http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0122524
